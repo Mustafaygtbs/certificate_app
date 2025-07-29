@@ -1,0 +1,24 @@
+# Streamlit ve temel bağımlılıklar
+streamlit>=1.32.0
+pandas>=2.2.0
+pillow>=10.4.0
+openpyxl>=3.1.4
+sqlalchemy>=2.0.28
+pyjwt>=2.9.0
+bcrypt>=4.2.0
+python-dotenv>=1.0.1
+reportlab>=4.1.0
+streamlit-authenticator>=0.3.0
+watchdog>=4.0.0
+python-slugify>=8.0.4
+email-validator>=2.2.0
+altair>=5.3.0
+
+# PostgreSQL desteği (opsiyonel - SQLite varsayılan)
+# psycopg2-binary>=2.9.9
+
+# Ek güvenlik ve performans paketleri
+cryptography>=42.0.0
+
+# QR kod desteği
+qrcode>=7.4.2

@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="certificate_app",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "streamlit>=1.32.0",
+        "pandas>=2.2.0",
+        "pillow>=10.4.0",
+        "openpyxl>=3.1.4",
+        "sqlalchemy>=2.0.28",
+        "pyjwt>=2.9.0",
+        "bcrypt>=4.2.0",
+        "python-dotenv>=1.0.1",
+        "reportlab>=4.1.0",
+        "streamlit-authenticator>=0.3.0",
+        "watchdog>=4.0.0",
+        "python-slugify>=8.0.4",
+        "email-validator>=2.2.0",
+        "altair>=5.3.0",
+        "cryptography>=42.0.0",
+    ],
+    python_requires=">=3.11",
+    author="Certificate System",
+    description="Sertifika Yönetim Sistemi",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Education",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+    ],
+) 
